@@ -1,9 +1,8 @@
 # CASecureDashboard
+-I wanted to create something to refresh my knowledge of building fullstack applications. I decided to build a single-page web dashboard that simulates monitoring internal infrastructure.
 
 
-
-# CoSecure Project Progress Tracker
-
+## Progress Tracker
 ##  Setup Phase
 - [x] Installed and configured Node.js, NPM, Git, and curl
 - [x] Created basic Express.js backend with /api/health and /api/logs
@@ -15,7 +14,7 @@
 - [x] Confirm logs are appearing via GET /api/logs
 
 ## Next Steps
-- [ ] Write Python script to simulate auto-log injection
+- [x] Write Python script to simulate auto-log injection
 - [ ] Write PowerShell script to simulate system health checks
 - [ ] Create basic Vue.js frontend layout (Navbar, LogsView)
 - [ ] Connect Vue frontend to backend API (Axios fetch)
