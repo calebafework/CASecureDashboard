@@ -24,7 +24,7 @@ app.get('/api/logs', (req, res) => {
     res.json(getLogs())
 });
 
-app.get('/api/push-log', (req, res) => {
+app.post('/api/push-log', (req, res) => {
     const { type, message } = req.body;
     if (!type || !message) {
         return res.status(400).json({ error: 'Missing type or message' });
