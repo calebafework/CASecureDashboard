@@ -15,10 +15,10 @@
 
 ## Next Steps
 - [x] Write Python script to simulate auto-log injection
-- [ ] Write PowerShell script to simulate system health checks
-- [ ] Create basic Vue.js frontend layout (Navbar, LogsView)
-- [ ] Connect Vue frontend to backend API (Axios fetch)
-- [ ] Display real-time logs on dashboard
+- [x] Write PowerShell script to simulate system health checks
+- [x] Create basic Vue.js frontend layout (Navbar, LogsView)
+- [x] Connect Vue frontend to backend API (Axios fetch)
+- [x] Display real-time logs on dashboard
 - [ ] Deploy backend to AWS (optional bonus)
 
 ## Stretch Goals (if time allows)
