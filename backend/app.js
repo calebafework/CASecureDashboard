@@ -25,12 +25,12 @@ app.get('/api/logs', (req, res) => {
 });
 
 app.post('/api/push-log', (req, res) => {
-    const { type, message } = req.body;
-    if (!type || !message) {
+    const { type, message, service } = req.body;
+    if (!type || !message || !service) {
         return res.status(400).json({ error: 'Missing type or message' });
     }
 
-    addLog({ type, message });
+    addLog({ type, message, service });
     res.status(201).json({ status: 'Log added' });
 })
 
